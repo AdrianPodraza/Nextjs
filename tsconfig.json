@@ -22,6 +22,16 @@
       "@/*": ["./*"]
     }
   },
+<<<<<<< HEAD
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+=======
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "components/navigation/navbar/Them"
+  ],
+>>>>>>> 21e33c2bf0632d7f5fc0629fec692345c93325fc
   "exclude": ["node_modules"]
 }

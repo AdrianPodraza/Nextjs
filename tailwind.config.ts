@@ -29,9 +29,12 @@ const config: Config = {
           "850": "#FDFDFD",
           "900": "#FFFFFF",
         },
+<<<<<<< HEAD
         link: {
           "100": "#1DA1F2",
         },
+=======
+>>>>>>> 21e33c2bf0632d7f5fc0629fec692345c93325fc
       },
       boxShadow: {
         "light-100":
@@ -49,12 +52,16 @@ const config: Config = {
         "space-grotesk": ["var(--font-space-grotesk)"],
       },
       borderRadius: {
+<<<<<<< HEAD
         "2": "8px",
         "1.5": "6px",
+=======
+>>>>>>> 21e33c2bf0632d7f5fc0629fec692345c93325fc
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+<<<<<<< HEAD
       backgroundImage: {
         "auth-dark": 'url("/images/auth-dark.png")',
         "auth-light": 'url("/images/auth-light.png")',
@@ -62,5 +69,10 @@ const config: Config = {
     },
   },
   plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
+=======
+    },
+  },
+  plugins: [require("tailwindcss-animate")],
+>>>>>>> 21e33c2bf0632d7f5fc0629fec692345c93325fc
 };
 export default config;

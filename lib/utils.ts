@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 
@@ -84,3 +85,11 @@ export const formatNumber = (number: number) => {
     return number.toString();
   }
 };
+=======
+import { clsx, type ClassValue } from "clsx"
+import { twMerge } from "tailwind-merge"
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs))
+}
+>>>>>>> 21e33c2bf0632d7f5fc0629fec692345c93325fc

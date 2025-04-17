@@ -4,7 +4,11 @@
   "rsc": true,
   "tsx": true,
   "tailwind": {
+<<<<<<< HEAD
     "config": "tailwind.config.ts",
+=======
+    "config": "tailwind.config.js",
+>>>>>>> 21e33c2bf0632d7f5fc0629fec692345c93325fc
     "css": "app/globals.css",
     "baseColor": "slate",
     "cssVariables": false,
@@ -16,5 +20,10 @@
     "ui": "@/components/ui",
     "lib": "@/lib",
     "hooks": "@/hooks"
+<<<<<<< HEAD
   }
+=======
+  },
+  "iconLibrary": "lucide"
+>>>>>>> 21e33c2bf0632d7f5fc0629fec692345c93325fc
 }
